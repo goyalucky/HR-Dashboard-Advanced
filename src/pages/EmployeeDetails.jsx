@@ -107,7 +107,7 @@ export function EmployeeDetails() {
         </h1>
       </div>
 
-      {/* Profile Header */}
+     
       <Card>
         <div className="flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-6">
           <img
@@ -143,7 +143,7 @@ export function EmployeeDetails() {
               </div>
             </div>
 
-            {/* Performance Rating */}
+          
             <div className="mb-4">
               <div className="flex items-center justify-center md:justify-start space-x-2 mb-2">
                 <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
@@ -156,7 +156,7 @@ export function EmployeeDetails() {
               </div>
             </div>
 
-            {/* Contact Info */}
+           
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
               <div className="flex items-center justify-center md:justify-start space-x-2">
                 <Mail className="w-4 h-4 text-gray-400" />
@@ -183,7 +183,7 @@ export function EmployeeDetails() {
         </div>
       </Card>
 
-      {/* Tabs */}
+    
       <div className="border-b border-gray-200 dark:border-gray-700">
         <nav className="flex space-x-8">
           {tabs.map(tab => (
@@ -202,10 +202,10 @@ export function EmployeeDetails() {
         </nav>
       </div>
 
-      {/* Tab Content */}
+     
       {activeTab === 'overview' && (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {/* Bio */}
+         
           <Card>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
               About
@@ -215,7 +215,7 @@ export function EmployeeDetails() {
             </p>
           </Card>
 
-          {/* Address */}
+         
           <Card>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
               Address
@@ -230,7 +230,7 @@ export function EmployeeDetails() {
             </div>
           </Card>
 
-          {/* Performance History */}
+        
           <Card className="lg:col-span-2">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
               Performance History
