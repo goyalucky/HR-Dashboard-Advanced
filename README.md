@@ -35,6 +35,7 @@ A modern, responsive HR Management Dashboard built with Next.js App Router, Tail
 ## 📸 Screenshots
 
 <details>
+<summary>View Screenshots</summary>
 
 
 ### Dashboard HomePage View
