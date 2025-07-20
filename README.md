@@ -245,7 +245,5 @@ If you have any questions or need help, please:
 
 **Built with ❤️ for the HR Dashboard Challenge**
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/hr-dashboard?style=social)](https://github.com/your-username/hr-dashboard/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/hr-dashboard?style=social)](https://github.com/your-username/hr-dashboard/network)
 
 </div>
