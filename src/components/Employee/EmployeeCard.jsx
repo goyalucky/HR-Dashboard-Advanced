@@ -23,7 +23,6 @@ export function EmployeeCard({ user, onPromote }) {
   return (
     <Card hover className="h-full">
       <div className="flex flex-col h-full">
-        {/* Header */}
         <div className="flex items-start space-x-4 mb-4">
           <img
             src={user.image}
@@ -54,7 +53,6 @@ export function EmployeeCard({ user, onPromote }) {
           </button>
         </div>
 
-        {/* Contact Info */}
         <div className="space-y-2 mb-4">
           <div className="flex items-center text-sm text-gray-600 dark:text-gray-400">
             <Mail className="w-4 h-4 mr-2 flex-shrink-0" />
@@ -70,7 +68,6 @@ export function EmployeeCard({ user, onPromote }) {
           </div>
         </div>
 
-        {/* Performance Rating */}
         <div className="mb-4">
           <div className="flex items-center justify-between mb-2">
             <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
@@ -83,7 +80,7 @@ export function EmployeeCard({ user, onPromote }) {
           <StarRating rating={user.performanceRating} showValue />
         </div>
 
-        {/* Actions */}
+
         <div className="flex space-x-2 mt-auto">
           <Link to={`/employee/${user.id}`} className="flex-1">
             <Button variant="outline" size="sm" icon={Eye} fullWidth>

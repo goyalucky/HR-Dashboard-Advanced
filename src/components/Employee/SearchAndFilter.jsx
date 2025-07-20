@@ -54,7 +54,6 @@ export function SearchAndFilter() {
 
   return (
     <div className="space-y-4">
-      {/* Search Bar */}
       <div className="relative">
         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
         <input
@@ -66,7 +65,6 @@ export function SearchAndFilter() {
         />
       </div>
 
-      {/* Filter Controls */}
       <div className="flex flex-wrap items-center gap-3">
         <Button
           variant="outline"
@@ -78,7 +76,6 @@ export function SearchAndFilter() {
           Filters {activeFiltersCount > 0 && `(${activeFiltersCount})`}
         </Button>
 
-        {/* Sort Buttons */}
         <div className="flex items-center space-x-1">
           {[
             { key: 'name', label: 'Name' },
@@ -111,10 +108,10 @@ export function SearchAndFilter() {
         )}
       </div>
 
-      {/* Filter Panel */}
+     
       {showFilters && (
         <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4 space-y-4">
-          {/* Department Filter */}
+          
           <div>
             <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Departments
@@ -136,7 +133,7 @@ export function SearchAndFilter() {
             </div>
           </div>
 
-          {/* Rating Filter */}
+          
           <div>
             <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Performance Rating
@@ -160,7 +157,7 @@ export function SearchAndFilter() {
         </div>
       )}
 
-      {/* Active Filters Display */}
+     
       {activeFiltersCount > 0 && (
         <div className="flex flex-wrap gap-2">
           {searchFilters.departments.map(department => (
