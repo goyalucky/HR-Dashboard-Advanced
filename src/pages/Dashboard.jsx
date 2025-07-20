@@ -52,7 +52,7 @@ export function Dashboard() {
 
   return (
     <div className="space-y-8">
-      {/* Header */}
+     
       <div>
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
           HR Dashboard
@@ -62,7 +62,7 @@ export function Dashboard() {
         </p>
       </div>
 
-      {/* Stats Cards */}
+     
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <Card>
           <div className="flex items-center">
@@ -129,7 +129,7 @@ export function Dashboard() {
         </Card>
       </div>
 
-      {/* Quick Actions */}
+    
       <Card>
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -155,7 +155,7 @@ export function Dashboard() {
         </div>
       </Card>
 
-      {/* Department Overview */}
+    
       <Card>
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -181,7 +181,7 @@ export function Dashboard() {
         </div>
       </Card>
 
-      {/* Top Performers */}
+     
       <Card>
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -200,7 +200,7 @@ export function Dashboard() {
         </div>
       </Card>
 
-      {/* Recent Hires */}
+      
       <Card>
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white">

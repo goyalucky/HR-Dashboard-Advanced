@@ -18,7 +18,7 @@ export const useUsers = () => {
       setUsers(enhancedUsers);
     } catch (error) {
       console.error('Failed to fetch users:', error);
-      // Fallback to mock data
+      
       const mockUsers = Array.from({ length: 20 }, (_, i) =>
         generateMockUserData({ id: i + 1 })
       );

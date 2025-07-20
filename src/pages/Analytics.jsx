@@ -214,7 +214,7 @@ export function Analytics() {
 
   return (
     <div className="space-y-8">
-      {/* Header */}
+      
       <div>
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
           Analytics Dashboard
@@ -224,7 +224,7 @@ export function Analytics() {
         </p>
       </div>
 
-      {/* Key Metrics */}
+    
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <Card>
           <div className="flex items-center">
@@ -291,7 +291,7 @@ export function Analytics() {
         </Card>
       </div>
 
-      {/* Charts Grid */}
+    
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <Card>
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
@@ -322,7 +322,7 @@ export function Analytics() {
         </Card>
       </div>
 
-      {/* Department Table */}
+     
       <Card>
         <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
           Department Details

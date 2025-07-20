@@ -95,7 +95,7 @@ export function EmployeeDetails() {
 
   return (
     <div className="space-y-6">
-      {/* Header */}
+    
       <div className="flex items-center space-x-4">
         <Link to="/employees">
           <Button variant="ghost" size="sm" icon={ArrowLeft}>

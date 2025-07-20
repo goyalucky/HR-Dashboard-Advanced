@@ -7,7 +7,7 @@ export const useSearch = () => {
   const filteredUsers = useMemo(() => {
     let filtered = [...users];
 
-    // Text search
+   
     if (searchFilters.query) {
       const query = searchFilters.query.toLowerCase();
       filtered = filtered.filter(user =>
@@ -18,21 +18,20 @@ export const useSearch = () => {
       );
     }
 
-    // Department filter
+   
     if (searchFilters.departments.length > 0) {
       filtered = filtered.filter(user =>
         searchFilters.departments.includes(user.department)
       );
     }
 
-    // Rating filter
     if (searchFilters.ratings.length > 0) {
       filtered = filtered.filter(user =>
         searchFilters.ratings.includes(Math.floor(user.performanceRating))
       );
     }
 
-    // Sorting
+   
     filtered.sort((a, b) => {
       let aValue, bValue;
 

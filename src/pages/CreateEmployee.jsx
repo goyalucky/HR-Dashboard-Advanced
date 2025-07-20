@@ -131,7 +131,7 @@ export function CreateEmployee() {
       }));
     }
 
-    // Clear error when user starts typing
+ 
     if (errors[name]) {
       setErrors(prev => ({
         ...prev,
@@ -150,7 +150,7 @@ export function CreateEmployee() {
     setIsSubmitting(true);
 
     try {
-      // Create new user with enhanced data
+      
       const newUser = generateMockUserData({
         id: Math.max(...users.map(u => u.id), 0) + 1,
         firstName: formData.firstName,
@@ -162,17 +162,17 @@ export function CreateEmployee() {
         image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`
       });
 
-      // Override with form data
+     
       newUser.department = formData.department;
       newUser.position = formData.position;
       newUser.salary = Number(formData.salary);
       newUser.bio = formData.bio || newUser.bio;
       newUser.hireDate = new Date().toISOString().split('T')[0];
 
-      // Add to users list
+   
       setUsers([...users, newUser]);
 
-      // Navigate to employee details
+      
       navigate(`/employee/${newUser.id}`);
     } catch (error) {
       console.error('Error creating employee:', error);
@@ -185,7 +185,7 @@ export function CreateEmployee() {
 
   return (
     <div className="space-y-6">
-      {/* Header */}
+  
       <div className="flex items-center space-x-4">
         <Button
           variant="ghost"
@@ -206,7 +206,7 @@ export function CreateEmployee() {
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-8">
-        {/* Personal Information */}
+        
         <Card>
           <div className="flex items-center space-x-2 mb-6">
             <User className="w-5 h-5 text-gray-600 dark:text-gray-400" />
@@ -315,7 +315,7 @@ export function CreateEmployee() {
           </div>
         </Card>
 
-        {/* Work Information */}
+      
         <Card>
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
             Work Information
@@ -403,7 +403,7 @@ export function CreateEmployee() {
           </div>
         </Card>
 
-        {/* Address Information */}
+        
         <Card>
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
             Address Information
@@ -502,7 +502,7 @@ export function CreateEmployee() {
           </div>
         </Card>
 
-        {/* Submit Button */}
+      
         <div className="flex justify-end space-x-4">
           <Button
             type="button"
