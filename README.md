@@ -42,8 +42,8 @@ A modern, responsive HR Management Dashboard built with Next.js App Router, Tail
 ![Dashboard](src/screenshots/Dashboard.png)
 <br>Main dashboard showing employee cards with performance ratings and quick actions
 
-###Search & Filter
-![Search & Filter](src/screenshots/Searching.png)
+### Search & Filter
+![SearchingFilter](src/screenshots/Searching.png)
 <br>Advanced search and filtering capabilities by name, department, and performance rating
 
 ### Bookmark
