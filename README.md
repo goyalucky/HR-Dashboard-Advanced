@@ -2,7 +2,7 @@
 
 A modern, responsive HR Management Dashboard built with Next.js App Router, Tailwind CSS, and React, designed for HR managers to monitor employee performance, manage bookmarks, and gain analytical insights.
 
-![Dashboard Preview](HR-dashboard\src\screenshots\Dashboard.png)
+![Dashboard Preview](src/screenshots/Dashboard.png)
 
 ## 🔧 Tech Stack
 
