@@ -17,7 +17,7 @@ A modern, responsive HR Management Dashboard built with Next.js App Router, Tail
 
 ## 🚀 Live Demo
 
-[View Live Demo →](https://endearing-scone-cba381.netlify.app)
+[🔗 Click here to view the Live Demo](https://endearing-scone-cba381.netlify.app)
 
 ## ✨ Core Features
 
