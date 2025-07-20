@@ -16,6 +16,7 @@ import { Badge } from '../components/UI/Badge';
 import { LoadingSpinner } from '../components/UI/LoadingSpinner';
 import { EmployeeCard } from '../components/Employee/EmployeeCard';
 
+
 export function Dashboard() {
   const { users, isLoading } = useUsers();
   const { bookmarkedUsers } = useBookmarks();
