@@ -2,8 +2,6 @@
 
 A modern, responsive HR Management Dashboard built with Next.js App Router, Tailwind CSS, and React, designed for HR managers to monitor employee performance, manage bookmarks, and gain analytical insights.
 
-![Dashboard Preview](src/screenshots/Dashboard.png)
-
 ## 🔧 Tech Stack
 
 - ⚛️ **Framework:** React.js (App Router – Next.js 13+)
@@ -19,7 +17,7 @@ A modern, responsive HR Management Dashboard built with Next.js App Router, Tail
 
 ## 🚀 Live Demo
 
-[View Live Demo →](https://your-demo-link-here.vercel.app)
+[View Live Demo →](https://endearing-scone-cba381.netlify.app)
 
 ## ✨ Core Features
 
@@ -39,14 +37,22 @@ A modern, responsive HR Management Dashboard built with Next.js App Router, Tail
 <details>
 <summary>View Screenshots</summary>
 
-### Dashboard View
+### Dashboard HomePage View
 ![Dashboard](src/screenshots/Dashboard.png)
+Main dashboard showing employee cards with performance ratings and quick actions
 
-### Employee Details
-![Employee Details](https://via.placeholder.com/600x300/059669/FFFFFF?text=Employee+Details)
+###Search & Filter
+![Search & Filter](src/screenshots/Searching.png)
+Advanced search and filtering capabilities by name, department, and performance rating
+
+### Bookmark
+![Bookmark](src/screenshots/bookmark.png)
 
 ### Analytics Dashboard
-![Analytics](https://via.placeholder.com/600x300/DC2626/FFFFFF?text=Analytics+Dashboard)
+![Analytics](src/screenshots/analytics.png)
+
+### Add Employee
+![Add Employee](src/screenshots/addemployee.png)
 
 </details>
 
