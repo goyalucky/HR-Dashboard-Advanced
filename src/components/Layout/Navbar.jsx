@@ -31,7 +31,7 @@ export function Navbar() {
     }`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+          
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
               <Users className="w-5 h-5 text-white" />
@@ -43,7 +43,7 @@ export function Navbar() {
             </span>
           </Link>
 
-          {/* Navigation Links */}
+         
           <div className="hidden md:flex items-center space-x-1">
             {navItems.map((item) => {
               const Icon = item.icon;
@@ -70,7 +70,7 @@ export function Navbar() {
             })}
           </div>
 
-          {/* Theme Toggle */}
+         
           <button
             onClick={toggleTheme}
             className={`p-2 rounded-lg transition-colors duration-200 ${
@@ -84,7 +84,7 @@ export function Navbar() {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+        
         <div className="md:hidden pb-4">
           <div className="flex items-center space-x-1 overflow-x-auto">
             {navItems.map((item) => {
