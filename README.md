@@ -106,7 +106,7 @@ A modern, responsive HR Management Dashboard built with Next.js App Router, Tail
 1. **Clone the repository**
    ```bash
    git clone https://github.com/your-username/hr-dashboard.git
-   cd hr-dashboard
+   cd HR-Dashboard-Advanced
    ```
 
 2. **Install dependencies**
